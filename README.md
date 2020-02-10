@@ -1,4 +1,5 @@
 # resume-app
+![Untitled](https://user-images.githubusercontent.com/50789325/74147984-f45e7f00-4c36-11ea-9433-960aec04568c.jpg)
 
 ## Project setup
 ```
