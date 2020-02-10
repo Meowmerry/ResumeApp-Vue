@@ -1,4 +1,5 @@
 <template>
+  <!-- Nav Grid -->
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">PORTFOLIO</a> -->
@@ -34,6 +35,8 @@
     </nav>
 </template>
 
-export default  {
-    
+<script>
+export default {
+   name : "Nav",
 }
+</script>
