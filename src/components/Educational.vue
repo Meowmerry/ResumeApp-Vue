@@ -10,7 +10,7 @@
         <div class="row">
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt />
+              <img class="mx-auto rounded-circle" src="img/ram.png" alt />
               <h4>RAMKHAMHAENG UNIVERSITY</h4>
               <p class="text-muted">Bachelor of Business | Nov 2003 - May 2006</p>
               <ul class="list-inline social-buttons">
@@ -34,7 +34,7 @@
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt />
+              <img class="mx-auto rounded-circle" src="img/texas.jpeg" alt />
               <h4>TEXAS SUCCESS ACADEMY USA</h4>
               <p class="text-muted">PRIVATE HIGH SCHOOL | Aug 2018 - Apr 2019</p>
               <ul class="list-inline social-buttons">
@@ -58,7 +58,7 @@
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt />
+              <img class="mx-auto rounded-circle" src="img/code.png" alt />
               <h4>CODECAMP#4 SOFTWARE PARK THAILAND</h4>
               <p class="text-muted">Full Stack Web Developer | Oct 2019 - Mar 2019</p>
               <ul class="list-inline social-buttons">

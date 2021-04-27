@@ -12,7 +12,7 @@
       </div>
       <div class="row">
         <div class="col-md-4 col-sm-6 portfolio-item" v-for="(obj,key) in portfolioJSON" :key="key">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+          <a class="portfolio-link" data-toggle="modal" :href="obj.href">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
@@ -36,31 +36,37 @@ export default {
       {
         img: "https://uppicimg.com/file/BlDCJnMP.jpg",
         caption: "Restaurant Reservation",
+        href: "https://restaurant-reservations-book.netlify.app/",
         title: "React Project"
       },
       {
         img: "https://uppicimg.com/file/20IovSQX.jpg",
         caption: "PetCare",
+        href: "https://taking-your-pet-with-pet-care.netlify.app/",
         title: "React Project"
       },
       {
         img: "https://uppicimg.com/file/iE7L5gF6.jpg",
         caption: "Welcome to my World!",
+         href: "",
         title: "VueJs Project"
       },
       {
         img: "https://uppicimg.com/file/5KARBkMN.jpg",
         caption: "NewsWeek",
+         href: "https://news-week.netlify.app/",
         title: "Bootstrap ProjectNews"
       },
       {
         img: "https://uppicimg.com/file/0gUjFIcA.jpg",
         caption: "Portfolio - Dr. Norman Borlaug",
+         href: "https://dr-norman-borlaug-page.netlify.app/",
         title: "HTML, CSS, Javascript Project"
       },
       {
          img: "https://uppicimg.com/file/9gIqJSsY.jpg",
         caption: "Welcome to my World!",
+         href: "https://welcome-to-myworld.netlify.app/",
         title: "Bootstrap Project"
       }
     ]
