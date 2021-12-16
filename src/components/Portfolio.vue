@@ -110,6 +110,13 @@ export default {
         href: "https://js-memery-game.netlify.app/",
         title: "HTML, CSS, Javascript Project",
       },
+      {
+        img:
+          "https://static-assets.codecademy.com/Courses/Learn-JavaScript/Event-Loop-and-Concurrency/JavaScript-Engine-Diagram.png",
+        caption: "Concurrency Model and Event Loop in JavaScript",
+        href: "https://event-loop-callstack-javascript.netlify.app/",
+        title: "HTML, CSS, Javascript Project",
+      },
     ],
   }),
 };
