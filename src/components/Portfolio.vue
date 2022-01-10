@@ -103,6 +103,7 @@ export default {
         href: "https://killswitch.finance/",
         title: "React Project Frontend",
       },
+
       {
         img:
           "https://marina-ferreira.github.io/img/tutorials/js/memory-game/memory-game.gif",
@@ -116,6 +117,14 @@ export default {
         caption: "Concurrency Model and Event Loop in JavaScript",
         href: "https://event-loop-callstack-javascript.netlify.app/",
         title: "HTML, CSS, Javascript Project",
+      },
+
+      {
+        img:
+          "https://static.vecteezy.com/system/resources/previews/004/666/571/non_2x/area-chart-blue-flat-design-long-shadow-glyph-icon-rising-graph-with-indexes-increasing-diagram-business-report-visualization-marketing-research-presentation-silhouette-illustration-vector.jpg",
+        caption: "Token App Frontend",
+        href: "https://tokenkulap-web-app.netlify.app/",
+        title: "React-Frontend Project",
       },
     ],
   }),
