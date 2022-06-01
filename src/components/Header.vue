@@ -3,7 +3,7 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <img class="profileimg" src="https://uppicimg.com/file/Lwa5szVq.jpg" alt />
+          <img class="profileimg" src="../assets/img/meow.jpeg" alt />
           <br />
           <div class="intro-lead-in">Welcome To My Portfolio!</div>
           <div class="intro-heading text-uppercase">It's Nice To Meet You</div>

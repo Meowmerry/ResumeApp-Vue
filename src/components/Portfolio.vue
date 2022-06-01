@@ -1,3 +1,5 @@
+
+
 <template>
   <!-- Portfolio Grid -->
   <section class="bg-light page-section" id="portfolio">
@@ -38,13 +40,13 @@ export default {
   data: () => ({
     portfolioJSON: [
       {
-        img: "https://uppicimg.com/file/BlDCJnMP.jpg",
+        img: require('../assets/img/reserved.png'),
         caption: "Restaurant Reservation",
         href: "https://restaurant-reservations-book.netlify.app/",
         title: "React Project",
       },
       {
-        img: "https://uppicimg.com/file/20IovSQX.jpg",
+        img: require('../assets/img/petCare.png'),
         caption: "PetCare",
         href: "https://taking-your-pet-with-pet-care.netlify.app/",
         title: "React Project",
@@ -58,33 +60,32 @@ export default {
       },
 
       {
-        img: "https://uppicimg.com/file/iE7L5gF6.jpg",
+        img: require('../assets/img/portfolio.png'),
         caption: "Welcome to my Portfolio!",
         href: "",
         title: "VueJs Project",
       },
 
       {
-        img:
-          "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/89053833_110699487202388_6827806855884963840_n.png?_nc_cat=100&ccb=1-5&_nc_sid=e3f864&_nc_ohc=OInd8x_5DpEAX_0t-yi&_nc_ht=scontent-atl3-2.xx&oh=00_AT90cjGwWX0W7ttzg6pF4Pp0AX8fjSEIJuNYlcloR3B4Cw&oe=61DE7FE0",
+        img: require('../assets/img/ienergy.png'),
         caption: "iEnergywhiz",
         href: "https://www.ienergywhiz.com/",
         title: "React Project",
       },
       {
-        img: "https://uppicimg.com/file/9gIqJSsY.jpg",
+         img: require('../assets/img/bootstrap.png'),
         caption: "Welcome to my World!",
         href: "https://welcome-to-myworld.netlify.app/",
         title: "Bootstrap Project",
       },
+      // {
+      //   img: "https://uppicimg.com/file/5KARBkMN.jpg",
+      //   caption: "NewsWeek",
+      //   href: "https://news-week.netlify.app/",
+      //   title: "Bootstrap ProjectNews",
+      // },
       {
-        img: "https://uppicimg.com/file/5KARBkMN.jpg",
-        caption: "NewsWeek",
-        href: "https://news-week.netlify.app/",
-        title: "Bootstrap ProjectNews",
-      },
-      {
-        img: "https://uppicimg.com/file/0gUjFIcA.jpg",
+        img: require('../assets/img/Dr.jpg'),
         caption: "Portfolio - Dr. Norman Borlaug",
         href: "https://dr-norman-borlaug-page.netlify.app/",
         title: "HTML, CSS, Javascript Project",
@@ -97,12 +98,12 @@ export default {
         href: "https://evstation.pttor.com/",
         title: "React/Redux Project",
       },
-      {
-        img: "https://miro.medium.com/max/1838/1*TlGoD3h0Dxawxx9k3AGO-g.png",
-        caption: "killswitch.finance",
-        href: "https://killswitch.finance/",
-        title: "React Project Frontend",
-      },
+      // {
+      //   img: "https://miro.medium.com/max/1838/1*TlGoD3h0Dxawxx9k3AGO-g.png",
+      //   caption: "killswitch.finance",
+      //   href: "https://killswitch.finance/",
+      //   title: "React Project Frontend",
+      // },
 
       {
         img:
