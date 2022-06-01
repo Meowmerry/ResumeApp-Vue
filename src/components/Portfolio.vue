@@ -1,5 +1,3 @@
-
-
 <template>
   <!-- Portfolio Grid -->
   <section class="bg-light page-section" id="portfolio">
@@ -13,7 +11,11 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 col-sm-6 portfolio-item" v-for="(obj, key) in portfolioJSON" :key="key">
+        <div
+          class="col-md-4 col-sm-6 portfolio-item"
+          v-for="(obj, key) in portfolioJSON"
+          :key="key"
+        >
           <a class="portfolio-link" data-toggle="modal" :href="obj.href">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -36,45 +38,51 @@ export default {
   data: () => ({
     portfolioJSON: [
       {
-        img: require('../assets/img/reserved.png'),
-        caption: "Restaurant Reservation",
-        href: "https://restaurant-reservations-book.netlify.app/",
+        img: require("../assets/img/ienergy.png"),
+        caption: "iEnergywhiz",
+        href: "https://www.ienergywhiz.com/",
         title: "React Project",
       },
       {
-        img: require('../assets/img/petCare.png'),
-        caption: "PetCare",
-        href: "https://taking-your-pet-with-pet-care.netlify.app/",
-        title: "React Project",
-      },
-      {
-        img: require('../assets/img/level.png'),
+        img: require("../assets/img/level.png"),
         caption: "Asset management software",
         href: "https://deploys.level11.dev/login",
         title: "Asset management by React-Redux",
       },
       {
-        img: require('../assets/img/wether.jpeg'),
+        img: require("../assets/img/reserved.png"),
+        caption: "Restaurant Reservation",
+        href: "https://restaurant-reservations-book.netlify.app/",
+        title: "React Project",
+      },
+      {
+        img: require("../assets/img/petCare.png"),
+        caption: "PetCare",
+        href: "https://taking-your-pet-with-pet-care.netlify.app/",
+        title: "React Project",
+      },
+      {
+        img:
+          "https://chargerod.com/wp-content/uploads/2021/02/ptt-ev-charger.jpg",
+        caption: "EV Station",
+        href: "https://evstation.pttor.com/",
+        title: "React/Redux Project",
+      },
+      {
+        img: require("../assets/img/wether.jpeg"),
         caption: "Wanderlust Check the WEATHER!",
         href: "https://wanderlust-weather.netlify.app/",
         title: "The WEATHER! - API HTTP Requests",
       },
 
       {
-        img: require('../assets/img/portfolio.png'),
+        img: require("../assets/img/portfolio.png"),
         caption: "Welcome to my Portfolio!",
         href: "",
         title: "VueJs Project",
       },
-
       {
-        img: require('../assets/img/ienergy.png'),
-        caption: "iEnergywhiz",
-        href: "https://www.ienergywhiz.com/",
-        title: "React Project",
-      },
-      {
-        img: require('../assets/img/bootstrap.png'),
+        img: require("../assets/img/bootstrap.png"),
         caption: "Welcome to my World!",
         href: "https://welcome-to-myworld.netlify.app/",
         title: "Bootstrap Project",
@@ -86,19 +94,12 @@ export default {
       //   title: "Bootstrap ProjectNews",
       // },
       {
-        img: require('../assets/img/Dr.jpg'),
+        img: require("../assets/img/Dr.jpg"),
         caption: "Portfolio - Dr. Norman Borlaug",
         href: "https://dr-norman-borlaug-page.netlify.app/",
         title: "HTML, CSS, Javascript Project",
       },
 
-      {
-        img:
-          "https://chargerod.com/wp-content/uploads/2021/02/ptt-ev-charger.jpg",
-        caption: "EV Station",
-        href: "https://evstation.pttor.com/",
-        title: "React/Redux Project",
-      },
       // {
       //   img: "https://miro.medium.com/max/1838/1*TlGoD3h0Dxawxx9k3AGO-g.png",
       //   caption: "killswitch.finance",
@@ -133,5 +134,4 @@ export default {
 };
 </script>
 
-<style slang="css">
-</style>
+<style slang="css"></style>
