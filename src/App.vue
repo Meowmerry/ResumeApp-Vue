@@ -1,8 +1,8 @@
 <template>
   <div id="app">
+
     <Nav></Nav> 
     <Header>
-     
     </Header>
     <TheCanvas></TheCanvas>
     <About></About>
