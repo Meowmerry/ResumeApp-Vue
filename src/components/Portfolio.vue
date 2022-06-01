@@ -13,11 +13,7 @@
         </div>
       </div>
       <div class="row">
-        <div
-          class="col-md-4 col-sm-6 portfolio-item"
-          v-for="(obj, key) in portfolioJSON"
-          :key="key"
-        >
+        <div class="col-md-4 col-sm-6 portfolio-item" v-for="(obj, key) in portfolioJSON" :key="key">
           <a class="portfolio-link" data-toggle="modal" :href="obj.href">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -52,8 +48,13 @@ export default {
         title: "React Project",
       },
       {
-        img:
-          "https://content.codecademy.com/courses/intermediate-javascript-requests/wanderlust/background_photo_desktop.jpg",
+        img: require('../assets/img/level.png'),
+        caption: "Asset management software",
+        href: "https://deploys.level11.dev/login",
+        title: "Asset management by React-Redux",
+      },
+      {
+        img: require('../assets/img/wether.jpeg'),
         caption: "Wanderlust Check the WEATHER!",
         href: "https://wanderlust-weather.netlify.app/",
         title: "The WEATHER! - API HTTP Requests",
@@ -73,7 +74,7 @@ export default {
         title: "React Project",
       },
       {
-         img: require('../assets/img/bootstrap.png'),
+        img: require('../assets/img/bootstrap.png'),
         caption: "Welcome to my World!",
         href: "https://welcome-to-myworld.netlify.app/",
         title: "Bootstrap Project",
@@ -132,4 +133,5 @@ export default {
 };
 </script>
 
-<style slang="css"></style>
+<style slang="css">
+</style>
