@@ -9,18 +9,23 @@
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
             <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-twitter"></i>
+              <a href="https://github.com/Meowmerry" class="link">
+                <div class="fab fab github"><img src="../assets/img/OIP.jpeg"/></div>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-facebook-f"></i>
+              <a href="https://www.facebook.com/LearningEnglishBymyself" class="link">
+                <div class="fab fa-facebook-f"><img src="../assets/img/fac.png"/></div>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-linkedin-in"></i>
+              <a href="#" class="link">
+                <div class="fab fa-linkedin-in"><img src="../assets/img/linkedin.png"/></div>
+              </a>
+            </li>
+              <li class="list-inline-item">
+              <a href="https://www.youtube.com/channel/UCUCOIgUishIcXt-GV2FMCIQ" class="link">
+                <div class="fab fa-linkedin-in"><img src="../assets/img/youtube.png"/></div>
               </a>
             </li>
           </ul>

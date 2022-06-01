@@ -1,7 +1,10 @@
 <template>
   <div id="app">
-    <Nav></Nav>
-    <Header></Header>
+    <Nav></Nav> 
+    <Header>
+     
+    </Header>
+    <TheCanvas></TheCanvas>
     <About></About>
     <Portfolio></Portfolio>
     <WorkExperience></WorkExperience>
@@ -20,6 +23,7 @@ import WorkExperience from "./components/WorkExperience";
 import Educational from "./components/Educational";
 import Contact from "./components/Contact";
 import Footer from "./components/footer";
+import TheCanvas from './components/TheCanvas';
 
 export default {
   name: "app",
@@ -31,8 +35,7 @@ export default {
     WorkExperience,
     Educational,
     Contact,
-    Footer
-
+    Footer,TheCanvas
   }
 };
 </script>
