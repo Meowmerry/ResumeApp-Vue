@@ -1,6 +1,6 @@
 <template>
        <!-- WorkExperience -->
-    <section class="page-section about" id="about">
+    <section class="page-section about" id="experience">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">

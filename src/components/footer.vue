@@ -8,7 +8,7 @@
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
+            <li class="list-inline-item ">
               <a href="https://github.com/Meowmerry" class="link">
                 <div class="fab fab github"><img src="../assets/img/OIP.jpeg"/></div>
               </a>
@@ -32,10 +32,10 @@
         </div>
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
-            <li class="list-inline-item">
+            <li class="list-inline-item list-link">
               <a href="#">Privacy Policy</a>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item list-link">
               <a href="#">Terms of Use</a>
             </li>
           </ul>

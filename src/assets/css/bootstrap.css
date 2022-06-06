@@ -2853,7 +2853,8 @@ input[type="submit"].btn-block {
   opacity: 0;
 }
 .collapse:not(.show) {
-  display: none;
+  /* display: none; */
+  display: inline-block;
 }
 .collapsing {
   position: relative;
@@ -3943,11 +3944,19 @@ input[type="submit"].btn-block {
   background: no-repeat center center;
   background-size: 100% 100%;
 }
+@media (max-width: 514px) {
+  .nav-link {
+    font-size: 10px !important;
+  }
+}
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
     padding-left: 0;
+  }
+  .nav-link {
+    font-size: 73% !important;
   }
 }
 @media (min-width: 576px) {
@@ -3981,6 +3990,9 @@ input[type="submit"].btn-block {
   }
   .navbar-expand-sm .navbar-toggler {
     display: none;
+  }
+  .nav-link {
+    font-size: 73% !important;
   }
 }
 @media (max-width: 767.98px) {
@@ -9017,7 +9029,8 @@ button.bg-dark:hover {
   text-transform: lowercase !important;
 }
 .text-uppercase {
-  text-transform: uppercase !important;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .text-capitalize {
   text-transform: capitalize !important;

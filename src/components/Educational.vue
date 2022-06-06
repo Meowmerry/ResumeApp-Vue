@@ -1,6 +1,6 @@
 <template>
     <!-- Educational-->
-    <section class="bg-light page-section" id="team">
+    <section class="bg-light page-section" id="educational">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
