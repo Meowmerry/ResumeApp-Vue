@@ -3956,7 +3956,7 @@ input[type="submit"].btn-block {
     padding-left: 0;
   }
   .nav-link {
-    font-size: 10px !important;
+    font-size: 8px !important;
   }
 }
 @media (min-width: 576px) {
@@ -7068,6 +7068,7 @@ button.bg-dark:hover {
   .float-sm-none {
     float: none !important;
   }
+
 }
 @media (min-width: 768px) {
   .float-md-left {
