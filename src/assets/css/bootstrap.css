@@ -3956,7 +3956,7 @@ input[type="submit"].btn-block {
     padding-left: 0;
   }
   .nav-link {
-    font-size: 73% !important;
+    font-size: 10px !important;
   }
 }
 @media (min-width: 576px) {
@@ -3992,7 +3992,7 @@ input[type="submit"].btn-block {
     display: none;
   }
   .nav-link {
-    font-size: 73% !important;
+    font-size: 73%;
   }
 }
 @media (max-width: 767.98px) {
