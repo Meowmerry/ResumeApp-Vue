@@ -1318,8 +1318,7 @@ body::after {
 
 @media only screen and (max-device-width: 1024px) {
   i {
-    width: 60px;
-    height: 60px;
+    display: none;
   }
 
   @media only screen and (device-width: 768px) {
