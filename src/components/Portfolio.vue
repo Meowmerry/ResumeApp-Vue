@@ -16,7 +16,7 @@
           v-for="(obj, key) in portfolioJSON"
           :key="key"
         >
-          <a class="portfolio-link" data-toggle="modal" :href="obj.href">
+          <a class="portfolio-link" data-toggle="modal" target="_blank" :href="obj.href">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
