@@ -37,28 +37,34 @@
 export default {
   data: () => ({
     portfolioJSON: [
+        {
+        img: require("../assets/img/Landing-Page.png"),
+        caption: "Influencer-Platform",
+        href: "https://github.com/Meowmerry/INFLUENCER-AGENCIES-PLATFORM",
+        title: "ReactHook & NextJs TypeScript with MongoDB",
+      },
       {
         img: require("../assets/img/ienergy.png"),
         caption: "iEnergywhiz",
         href: "https://www.ienergywhiz.com/",
-        title: "React Project",
+        title: "React & Redux with MongoDB",
       },
       {
         img: require("../assets/img/level.png"),
         caption: "Asset management software",
         href: "https://deploys.level11.dev/login",
-        title: "Asset management by React-Redux",
+        title: "ReactHook with NextJs and Postgresql",
       },
       {
         img: require("../assets/img/reserved.png"),
         caption: "Restaurant Reservation",
-        href: "https://restaurant-reservations-book.netlify.app/",
-        title: "React Project",
+        href: "https://github.com/Meowmerry/Reservations-redux",
+        title: "React & Redux with SQL DB",
       },
       {
         img: require("../assets/img/petCare.png"),
         caption: "PetCare",
-        href: "https://taking-your-pet-with-pet-care.netlify.app/",
+        href: "https://github.com/Meowmerry/PetCare",
         title: "React Project",
       },
       {
@@ -69,17 +75,23 @@ export default {
         title: "React/Redux Project",
       },
       {
+        img:
+          "https://static.vecteezy.com/system/resources/previews/004/666/571/non_2x/area-chart-blue-flat-design-long-shadow-glyph-icon-rising-graph-with-indexes-increasing-diagram-business-report-visualization-marketing-research-presentation-silhouette-illustration-vector.jpg",
+        caption: "Token App Frontend",
+        href: "https://tokenkulap-web-app.netlify.app/",
+        title: "React-Frontend Project",
+      },
+       {
+        img: "https://miro.medium.com/max/1838/1*TlGoD3h0Dxawxx9k3AGO-g.png",
+        caption: "killswitch.finance",
+        href: "https://killswitch.finance/",
+        title: "React Project Frontend",
+      },
+      {
         img: require("../assets/img/wether.jpeg"),
         caption: "Wanderlust Check the WEATHER!",
         href: "https://wanderlust-weather.netlify.app/",
         title: "The WEATHER! - API HTTP Requests",
-      },
-
-      {
-        img: require("../assets/img/portfolio.png"),
-        caption: "Welcome to my Portfolio!",
-        href: "",
-        title: "VueJs Project",
       },
       {
         img: require("../assets/img/bootstrap.png"),
@@ -93,19 +105,14 @@ export default {
       //   href: "https://news-week.netlify.app/",
       //   title: "Bootstrap ProjectNews",
       // },
-      {
-        img: require("../assets/img/Dr.jpg"),
-        caption: "Portfolio - Dr. Norman Borlaug",
-        href: "https://dr-norman-borlaug-page.netlify.app/",
-        title: "HTML, CSS, Javascript Project",
-      },
-
       // {
-      //   img: "https://miro.medium.com/max/1838/1*TlGoD3h0Dxawxx9k3AGO-g.png",
-      //   caption: "killswitch.finance",
-      //   href: "https://killswitch.finance/",
-      //   title: "React Project Frontend",
+      //   img: require("../assets/img/Dr.jpg"),
+      //   caption: "Portfolio - Dr. Norman Borlaug",
+      //   href: "https://dr-norman-borlaug-page.netlify.app/",
+      //   title: "HTML, CSS, Javascript Project",
       // },
+
+     
 
       {
         img:
@@ -120,14 +127,6 @@ export default {
         caption: "Concurrency Model and Event Loop in JavaScript",
         href: "https://event-loop-callstack-javascript.netlify.app/",
         title: "HTML, CSS, Javascript Project",
-      },
-
-      {
-        img:
-          "https://static.vecteezy.com/system/resources/previews/004/666/571/non_2x/area-chart-blue-flat-design-long-shadow-glyph-icon-rising-graph-with-indexes-increasing-diagram-business-report-visualization-marketing-research-presentation-silhouette-illustration-vector.jpg",
-        caption: "Token App Frontend",
-        href: "https://tokenkulap-web-app.netlify.app/",
-        title: "React-Frontend Project",
       },
     ],
   }),
