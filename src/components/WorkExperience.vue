@@ -35,7 +35,7 @@ to prepare for rapid scaling and optimized debugging and maintainability of code
               </div>
             </li>
 
-            <li>
+            <li class="timeline-inverted">
               <div class="timeline-image">
                 <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt />
               </div>
@@ -61,7 +61,7 @@ of responsibility and separation of concern.</li>
                 </div>
               </div>
             </li>
-            <li class="timeline-inverted">
+            <li >
               <div class="timeline-image">
                 <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt />
               </div>
@@ -86,7 +86,7 @@ micro-actions across the app’s components for efficient debugging.</li>
                 </div>
               </div>
             </li>
-            <li>
+            <li class="timeline-inverted">
               <div class="timeline-image">
                 <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt />
               </div>

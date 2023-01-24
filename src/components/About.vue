@@ -25,15 +25,19 @@
             </span>
             <h4 class="service-heading">AREAS OF EXPERTISE</h4>
             <ul class="b">
-              <li>System AnalysisUser Research</li>
-              <li>HTML, CSS, Javascript, TypeScript</li>
-              <li>Responsive Design - Bootstrap,Ant design library</li>
-              <li>Material UI</li>
-              <li>React, Hook + Redux</li>
-              <li>SQL,Express.js + Node.js</li>
-              <li>Mongo Db, PostgreSql</li>
+              <li>JavaScript (ES6+), TypeScript</li>
+              <li>JReact, Redux, Next.js</li>
+              <li>HTML, CSS/SCSS, Styled Components</li>
+              <li>Material UI, AntDesign, Tailwind, Bootstrap</li>
+              <li>Webpack, Node.js, </li>
+              <li>Express,RESTful APIs,</li>
+              <li>Version Control (Gig/GitHub/GigLab)</li>
+              <li>TDD (Jess, Cypress, and React Testing Library)</li>
               <li>HTTP/JSON/AJAX - RESTful API Design</li>
-              <li>Git + Github + Gitlab</li>
+              <li>Storybook, Go-language, GraphQL</li>
+              <li>MySQL/PostgreSQL, MongoDB, Docker</li>
+              <li>D3.js, Three.js, Svelte, Vue,</li>
+              <li>AWS (Amazon Elastic Compute Cloud), Authentication, JWTs.</li>
             </ul>
           </div>
         </div>
