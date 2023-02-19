@@ -15,7 +15,16 @@
             <h4 class="service-heading">PERSONAL PROFILE</h4>
             <p
               class="text-muted"
-            >I currently am working as a web developer, which is where my passion for working on the development converge. See my previous work history on LinkedIn. Outside of work I have a beautiful family and many friends (obviously). I am also working on a few side projects including web design and dayofthedead.holiday. Currently I am not accepting freelance work, but I'd love to get coffee and get to know you, so don’t hesitate to get in touch.</p>
+            >I currently am working as a web developer, which is where my passion for working on the development converge.
+             See my previous work history on LinkedIn. Outside of work I have a beautiful family and many friends (obviously). 
+             I am also working on a few side projects including web design.
+             Passionate and hardworking with a penchant for meeting deadlines.
+             Interested in roles indulging in best practices and offering diverse customer projects.</p>
+             <p
+              class="text-muted"
+            >
+             Currently I am not accepting freelance work, but I'd love to get coffee and get to know you, so don’t hesitate to get in touch.</p>
+          </div>
           </div>
           <div class="col-md-2"></div>
           <div class="col-md-4">
